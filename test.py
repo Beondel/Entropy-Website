@@ -1,5 +1,9 @@
 import numpy as np
 
+text = """
+     aA
+"""
+
 def entropy(text):
     charArray = list(text.replace(" ", ""))
     data = [ord(i) for i in charArray]
